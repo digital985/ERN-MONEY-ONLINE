@@ -1,0 +1,81 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #2d89ef;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Main Content Styling */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.website-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.website {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.website:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.website img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.website h3 {
+    color: #2d89ef;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.website p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+footer a {
+    color: #2d89ef;
+    text-decoration: none;
+    font-weight: bold;
+}
